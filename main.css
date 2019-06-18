@@ -1,0 +1,96 @@
+.caja {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caja header {
+  text-align: center;
+  margin-bottom: 0.2em;
+  height: 250px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  background-image: url("../imagenes/fondoHTML5.jpg");
+  background-size: 50%;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 5px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  color: #000000;
+}
+
+nav a:hover {
+  background-color: LightCoral;
+}
+
+nav li {
+  background-color: LightGray;
+  margin-right: 0.5em;
+  flex-grow: 1;
+}
+
+.contenido {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  gap: 0.2em;
+}
+.contenido img {
+  float: right;
+}
+
+article {
+  padding: 0.2em;
+
+
+}
+article h1{
+  font-size: 2.5em;;
+}
+article h2{
+  font-size: 1.875em;
+}
+
+aside {
+  border: dotted gray;
+  padding: 0.2em;
+}
+
+footer {
+  padding: 0.2em;
+  text-align: center;
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
