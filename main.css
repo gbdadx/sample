@@ -10,7 +10,7 @@
   height: 250px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5em;
-  background-image: url("imagenes/fondoHTML5.jpg");
+  background-image: url("../imagenes/fondoHTML5.jpg");
   background-size: 50%;
 }
 
